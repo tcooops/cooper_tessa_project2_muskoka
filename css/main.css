@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/*
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Anton', sans-serif;
+*/
+
+.static {
+	position: static;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+
+/***FONTS***/
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #333;
+}
+
+body, p {
+ 	font-family: 'Lora', serif;
+    line-height: 26px;
+    font-weight: 400;
+    color: #201d1e;
+    font-size: 18px;
+    padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+h3 {
+	font-family: 'Lora', serif;
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/***HEADER***/
+
+
+.main-nav {
+float: left;
+	width: 1700px;
+	height: 300px;
+	font-family: 'Lora', 'Georgia', serif;
+	text-decoration: none;
+    line-height: 16px;
+    font-weight: 800;
+    color: #333;
+    font-size: 14px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#577c00+99,577c00+99,000000+100&0.65+42,0+96 */
+background: -moz-linear-gradient(top,  rgba(87,124,0,0.65) 42%, rgba(87,124,0,0) 96%, rgba(87,124,0,0) 99%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(87,124,0,0.65) 42%,rgba(87,124,0,0) 96%,rgba(87,124,0,0) 99%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(87,124,0,0.65) 42%,rgba(87,124,0,0) 96%,rgba(87,124,0,0) 99%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6577c00', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+ilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6afc960', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.main-nav ul li a {
+	display: block;
+	color: #333;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	letter-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.main-nav ul li a:hover {
+	font-size: 18px;
+	color: #999;
+}
+
+.logo {
+	height: 173px;
+	width: 243px;
+}
+
+/***END HEADER***/
+
+ul {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	padding-left: 15px;
+}
+
+p::first-letter {
+  font-size: 150%;
+  color: #666;
+}
+
+.img {
+	float: right;
+	padding-left: 10px;
+}
+.beers {
+	float:right;
+	padding-left:10px;
+	height:356px;
+	width:332px;
+	padding: 10px;
+}
+
+
